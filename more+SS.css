@@ -615,6 +615,52 @@ footer {
         }
     }
 
+@keyframes scroll-right-to-left {
+        from {
+            transform: translateX(-125%);
+        }
+
+        to {
+            transform: translateX(0%);
+        }
+
+    }
+
+    @keyframes scroll-left-to-right {
+        from {
+            transform: translateX(0%);
+        }
+
+        to {
+            transform: translateX(-125%);
+        }
+
+    }
+
+
+    @keyframes scroll-right-to-left-slow {
+        from {
+            transform: translateX(-125%);
+        }
+
+        to {
+            transform: translateX(0%);
+        }
+
+    }
+
+    @keyframes scroll-left-to-right-slow {
+        from {
+            transform: translateX(0%);
+        }
+
+        to {
+            transform: translateX(-125%);
+        }
+
+    }
+    
+
     .flavor-text {
         font-size: .6rem;
     }
