@@ -472,4 +472,8 @@ footer .ica {
         margin-bottom: 4px;
     }
 
+     footer .ica {
+        filter: blur(.2px);
+    }
+
 }
