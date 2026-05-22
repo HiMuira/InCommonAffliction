@@ -331,6 +331,10 @@ footer {
         scale: 1.4;
     }
 
+        img {
+        filter: blur(.2px);
+    }
+
     .bottom-code {
         font-size: .3rem;
     }
