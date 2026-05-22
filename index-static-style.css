@@ -190,7 +190,6 @@ main .image {
 
 img {
     max-width: 100%;
-    filter: blur(.5px);
 }
 
 .print {
@@ -333,10 +332,6 @@ footer {
         border: var(--borderW);
         border-radius: 2px;
         position: relative;
-    }
-
-    img {
-        filter: blur(.2px);
     }
 
     main .image {
