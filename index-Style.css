@@ -318,7 +318,7 @@ footer {
         font-size: 1rem;
     }
 
-     nav {
+    nav {
         padding: 10px 12px;
     }
 
@@ -337,17 +337,29 @@ footer {
         position: relative;
     }
 
+    main .image {
+        align-content: center;
+    }
+
+    main .image img {
+        scale: 1.5;
+    }
+
     .bottom-code {
         font-size: .3rem;
     }
 
     footer {
         font-size: .3rem;
+        column-gap: 10px;
+        row-gap: 0;
     }
 
     .bottom-grid-container {
-        display: grid;
-        grid-template: repeat(1, 60px)/ 2.5fr repeat(4, 1.5fr) 2fr;
+        /* display: grid;
+        grid-template: repeat(1, 50px)/ 2.5fr repeat(4, 1.5fr) 2fr; */
+        display: flex;
+        justify-content: space-between;
         align-items: center;
         padding: 0 12px;
     }
@@ -358,6 +370,11 @@ footer {
 
     .lastwish p {
         font-size: .6rem;
+        letter-spacing: -1px;
+    }
+
+    .bios {
+        margin-bottom: 4px;
     }
 
 
