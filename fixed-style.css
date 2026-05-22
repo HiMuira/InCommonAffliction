@@ -323,16 +323,16 @@ footer {
         position: relative;
     }
 
+    img {
+        filter: blur(.3px);
+    }
+
     main .image {
         align-content: center;
     }
 
     main .image img {
         scale: 1.4;
-    }
-
-        img {
-        filter: blur(.2px);
     }
 
     .bottom-code {
