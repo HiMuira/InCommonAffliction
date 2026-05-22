@@ -409,7 +409,7 @@ footer .ica {
 
     main {
         display: grid;
-        grid-template: 170px 82px /repeat(2, 1fr);
+        grid-template: 327px 82px /repeat(2, 1fr);
 
         grid-template-areas:
             "A A"
@@ -419,7 +419,12 @@ footer .ica {
         position: relative;
     }
 
-    img {
+    .heroimage {
+        align-content: center;
+    }
+
+    .heroimage img {
+        scale: 1.9;
         filter: blur(.2px);
     }
 
@@ -429,11 +434,15 @@ footer .ica {
 
     footer {
         font-size: .3rem;
+        column-gap: 10px;
+        row-gap: 0;
     }
 
     .bottom-grid-container {
-        display: grid;
-        grid-template: repeat(1, 60px)/ 2.5fr repeat(4, 1.5fr) 2fr;
+        /* display: grid;
+        grid-template: repeat(1, 50px)/ 2.5fr repeat(4, 1.5fr) 2fr; */
+        display: flex;
+        justify-content: space-between;
         align-items: center;
         padding: 0 12px;
     }
@@ -444,8 +453,15 @@ footer .ica {
 
     .lastwish p {
         font-size: .6rem;
-        text-align: center;
+        letter-spacing: -1px;
     }
 
+    .hide-this {
+        display: none;
+    }
+
+    .bios {
+        margin-bottom: 4px;
+    }
 
 }
