@@ -176,7 +176,6 @@ main .logo {
     border-radius: 2px;
     margin: 4px;
     overflow: hidden;
-    filter: blur(.5px);
 }
 
 .prea {
@@ -408,7 +407,6 @@ footer {
 footer .ica {
     width: 100%;
     max-width: 100%;
-    filter: blur(.5px);
 }
 
 /* STYLING THE FOOTER END */
@@ -434,16 +432,9 @@ footer .ica {
         position: relative;
     }
 
-    main .logo {
-        filter: blur(.3px);
-    }
 
     main img {
         scale: 0.6;
-    }
-
-    img {
-        filter: blur(.2px);
     }
 
 
