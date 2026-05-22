@@ -656,6 +656,10 @@ footer {
         margin-bottom: 4px;
     }
 
+    .poem {
+        line-height: 1;
+    }
+
 
     footer .ica {
         filter: blur(.2px);
