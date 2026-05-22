@@ -595,7 +595,7 @@ footer {
     }
 
     .tab-image img {
-        scale: 2.2;
+        scale: 2.3;
         /* filter: blur(.5px); */
         animation: image-blur .05s linear infinite alternate;
     }
