@@ -183,6 +183,7 @@ main .image {
 img {
     max-width: 100%;
     /* filter: blur(.5px); */
+    filter: blur(.2px);
 }
 
 .image img {
@@ -321,10 +322,6 @@ footer {
         border: var(--borderW);
         border-radius: 2px;
         position: relative;
-    }
-
-    img {
-        filter: blur(.3px);
     }
 
     main .image {
