@@ -343,7 +343,7 @@ footer {
 
     main .image img {
         scale: 1.5;
-         filter: blur(.2px);
+        filter: blur(.2px);
     }
     
     .bottom-code {
